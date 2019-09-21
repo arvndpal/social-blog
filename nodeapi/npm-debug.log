@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs8.5\\node.exe',
+1 verbose cli   'C:\\Users\\mukulSharma\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.7
+3 info using node@v8.12.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle nodeapi@1.0.0~predev: nodeapi@1.0.0
+6 silly lifecycle nodeapi@1.0.0~predev: no script for predev, continuing
+7 info lifecycle nodeapi@1.0.0~dev: nodeapi@1.0.0
+8 verbose lifecycle nodeapi@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle nodeapi@1.0.0~dev: PATH: C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\react-node-social\nodeapi\node_modules\.bin;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.2.1\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.2.1\bin;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\OpenSSL-Win64\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\PostgreSQL\9.6\bin;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Microsoft Visual C++ Build Tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Python3.6\Scripts;C:\Program Files\Haskell Platform\8.2.1\mingw\bin;C:\Program Files (x86)\Graphviz2.38\bin;C:\Users\mukulSharma\Desktop\anshul\maven\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152;C:\ProgramData\Oracle\Java\javapath;C:\Users\mukulSharma\Downloads\schemacrawler-14.19.01-distribution\_schemacrawler;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs8.5\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Python3.6;C:\Users\mukulSharma\AppData\Roaming\cabal\bin;C:\bin\Haskell Stack;C:\Users\mukulSharma\algs4\bin;C:\Users\mukulSharma\algs4\java\bin;C:\Users\mukulSharma\Anaconda2;C:\Users\mukulSharma\Anaconda2\Scripts;C:\Users\mukulSharma\Anaconda2\Library\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\mukulSharma\AppData\Local\Microsoft\WindowsApps;C:\Users\mukulSharma\AppData\Local\atom\bin;C:\Users\mukulSharma\AppData\Local\Microsoft\WindowsApps;C:\Users\mukulSharma\AppData\Local\Yarn\bin;C:\Users\mukulSharma\AppData\Roaming\npm;C:\Program Files\ArangoDB3 3.4.2\usr\bin;
+10 verbose lifecycle nodeapi@1.0.0~dev: CWD: C:\react-node-social\nodeapi
+11 silly lifecycle nodeapi@1.0.0~dev: Args: [ '/d /s /c', 'nodemon app.js' ]
+12 silly lifecycle nodeapi@1.0.0~dev: Returned: code: 3221225786  signal: null
+13 info lifecycle nodeapi@1.0.0~dev: Failed to exec dev script
+14 verbose stack Error: nodeapi@1.0.0 dev: `nodemon app.js`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at EventEmitter.emit (events.js:214:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at ChildProcess.emit (events.js:214:7)
+14 verbose stack     at maybeClose (internal/child_process.js:915:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+15 verbose pkgid nodeapi@1.0.0
+16 verbose cwd C:\react-node-social\nodeapi
+17 error Windows_NT 10.0.17134
+18 error argv "C:\\Program Files\\nodejs8.5\\node.exe" "C:\\Users\\mukulSharma\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+19 error node v8.12.0
+20 error npm  v3.10.7
+21 error code ELIFECYCLE
+22 error nodeapi@1.0.0 dev: `nodemon app.js`
+22 error Exit status 3221225786
+23 error Failed at the nodeapi@1.0.0 dev script 'nodemon app.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the nodeapi package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     nodemon app.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs nodeapi
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls nodeapi
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
